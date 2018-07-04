@@ -4,17 +4,37 @@
 
 .uniformcard {
     animation: slidein infinite 2s linear;
-    height: 130px;
+    /* height: 1000px; */
+    /* height: 130px; */
+    width: 100%;
+}
+
+.uniformcard2 {
+  /* animation: slidein infinite 2s 0.15s linear; */
+  height: 130px;
+  width: auto;
 }
 
 @keyframes slidein {
-    from {
-      margin-left: 100%;
-      margin-right: 0%;
-    }
-  
-    to {
-      margin-left: -20%;
-      margin-right: 100%;
-    }
+  from {
+    margin-left: 100%;
+    margin-right: -10%;
   }
+  
+  to {
+    margin-left: -100%;
+    margin-right: 100%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+    margin-right: 0%;
+  }
+  
+  to {
+    margin-left: -20%;
+    margin-right: 100%;
+  }
+}
